@@ -1,0 +1,16 @@
+{
+  "name": "BobBucks",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "serviceworker": {
+    "src": "sw.js",
+    "scope": "/pay/pay/",
+    "use_cache": true
+  },
+  "supported_origins": ["*"]
+}
